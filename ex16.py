@@ -1,5 +1,6 @@
 # 读写文件 （二） 写
 from sys import argv
+
 script , filename =argv
 
 print(f"We're going to erase {filename}.")

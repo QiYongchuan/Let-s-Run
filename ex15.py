@@ -1,5 +1,6 @@
 # 读取文件  (一) 读
 # 用open 来获取打开文件  用read()方法来读出来
+# 这里需要输入对应的文件名字
 
 from sys import argv
 
