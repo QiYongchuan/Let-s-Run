@@ -1,6 +1,3 @@
-one more 
-noe more
-noe more
-++++1
-++++2
-++++3
+This is first line
+this is second line 
+this is thrid line
