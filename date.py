@@ -18,6 +18,13 @@ input("?\n")
 
 print(f"Opening your database in {current_date}....")
 
+
+txt = open(filename)
+
+print(f"Here's your file {filename}")
+print(txt.read())
+
+
 target = open(filename,'+a')
 
 print("Write your record:\n")
