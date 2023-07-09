@@ -1,7 +1,7 @@
 # 读写文件 （二） 写
 from sys import argv
 
-script , filename =argv
+script, filename = argv
 
 print(f"We're going to erase {filename}.")
 print("If you don't want that, hit CTRLL-C (^C).")
@@ -10,7 +10,7 @@ print("If you want that, hit RETURN.")
 input("?")
 
 print("Opening the file...")
-target = open(filename,'w')
+target = open(filename, 'w')
 # 打开文件并执行 w 写操作.
 
 print("Truncating the file. Goodbye!")
@@ -48,7 +48,7 @@ line2 = input("line 2+: ")
 line3 = input("line 3+: ")
 
 print("Opening the file...")
-target = open(filename,'a+')
+target = open(filename, 'a+')
 
 target.write(line1)
 target.write("\n")

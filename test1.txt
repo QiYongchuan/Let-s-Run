@@ -1,1 +1,7 @@
 "this is a test file" 
+我将把文本信息以二进制的方法存进txt中我将把文本信息以二进制的方法存进txt中
+但是需要将str字符串转换成字节序列
+方法是调用.encode('utf-8')，完整是target.write(line2.encode('utf-8'))
+我将把文本信息以二进制的方法存进txt中
+但是需要将str字符串转换成字节序列
+方法是调用.encode('utf-8')，完整是target.write(line2.encode('utf-8'))
